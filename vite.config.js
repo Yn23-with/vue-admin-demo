@@ -1,7 +1,7 @@
-import vue from '@vitejs/plugin-vue'
 import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
 
-// https://vite.dev/config/
 export default defineConfig({
+  base: '/vue-admin-demo/', //仓库名字，前后斜杠不能丢！
   plugins: [vue()],
 })
